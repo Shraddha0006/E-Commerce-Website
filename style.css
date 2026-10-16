@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(189, 214, 237);
+    color:rgb(24, 23, 22)
+}
+header{
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    gap:10px;
+}
+header h1{
+    color:white;
+}
+nav{
+    display: flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+.shoes{
+    width:50vh;
+    height: 50vh;
+}
+.watch{
+    width: 50vh;
+    height: 50vh;
+}
+.HeadPhone{
+    width: 50vh;
+    height: 50vh;
+}
+.Bag{
+    width:50vh;
+    height:50vh;
+}
+.product-container{
+    display:grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+}
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #00000015;
+    transition: transform (1);
+}
+.hero{
+    padding:40px;
+    font-weight: 400;
+}
+.btn{
+    background-color: rgb(191, 13, 90);
+    color:white;
+    padding:10px;
+    border:2px solid black;
+    margin:5px;
+}
+#contact{
+    background-color: rgb(132, 194, 173);
+    padding:50px;
+    text-align:center;
+    font-size: 30px;
+    color:white;
+    font-weight: 500;
+}
